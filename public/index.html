@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://assets.vercel.com/image/upload/front/favicon/vercel/favicon.ico"
+      rel="icon shortcut"
+      type="image/x-icon"
+    />
+    <title>GitHub Sync Fork Webhook</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="bg-black text-white absolute inset-0 grid place-items-center">
+    <div class="text-center font-light tracking-wide">
+      <h1 class="text-2xl">GitHub Sync Fork Webhook</h1>
+      <p class="text-neutral-400 mt-4 max-w-md">
+        Tiny webhook to keep your GitHub fork in sync with the upstream repo
+        using Vercel Serverless functions.
+      </p>
+      <div class="mt-4">
+        <h2 class="text-xs uppercase">Usage</h2>
+        <div class="space-y-2 mt-2">
+          <p>
+            <!-- prettier-ignore -->
+            <code>/api/sync/<span class="text-red-400">{fork_owner}</span></code>
+          </p>
+          <p>
+            <!-- prettier-ignore -->
+            <code>
+              /api/sync/<span class="text-red-400">{fork_owner}</span>/<span class="text-red-400">{fork_repo}</span>
+            </code>
+          </p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

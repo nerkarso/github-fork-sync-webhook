@@ -15,12 +15,6 @@ USER_AGENT=
 vercel dev
 ```
 
-## Testing
-
-```sh
-pnpm test
-```
-
 ## Deployment
 
 ```sh
