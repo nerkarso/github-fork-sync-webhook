@@ -1,0 +1,10 @@
+{
+  "name": "github-sync-fork-webhook",
+  "version": "0.1.0",
+  "devDependencies": {
+    "@vercel/node": "^2.8.2"
+  },
+  "engines": {
+    "node": "^18.x"
+  }
+}
