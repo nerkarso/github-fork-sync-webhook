@@ -1,4 +1,4 @@
-# GitHub Sync Fork Webhook
+# GitHub Fork Sync Webhook
 
 Tiny webhook to keep your GitHub fork in sync with the upstream repo using Vercel Serverless functions.
 
